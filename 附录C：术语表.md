@@ -92,6 +92,15 @@
 | 对话系统 | Dialogue System | 能够与人类进行对话的AI系统，如聊天机器人 |
 | 指令微调 | Instruction Tuning | 使用指令-响应对数据微调LLM，提高遵循指令的能力 |
 | 人类反馈强化学习 | Reinforcement Learning from Human Feedback (RLHF) | 结合人类反馈，使用强化学习优化LLM的输出 |
+| GPT-4o | GPT-4o | OpenAI 2024年发布的多模态模型，支持实时语音、图像和文本交互，具有更强的上下文理解能力 |
+| Gemini 1.5 | Gemini 1.5 | Google 2024年发布的多模态模型，支持超长上下文处理（最高100万token），在多模态理解和生成方面表现出色 |
+| Claude 3 | Claude 3 | Anthropic 2024年发布的大语言模型系列，包括Claude 3 Opus、Sonnet和Haiku三个版本，在长文本处理和安全性方面表现出色 |
+| Llama 3 | Llama 3 | Meta 2024年发布的开源大语言模型，参数量从8B到70B不等，在开源模型中性能领先 |
+| o1系列模型 | o1 Series | OpenAI 2024年发布的推理优化模型，专注于复杂推理任务，采用"思考前行动"的设计理念 |
+| 多模态模型 | Multimodal Model | 能够同时处理和生成文本、图像、音频、视频等多种模态数据的AI模型 |
+| 实时语音交互 | Real-time Voice Interaction | AI模型能够实时处理语音输入并生成语音输出，实现流畅的语音对话 |
+| 超长上下文 | Ultra-long Context | AI模型能够处理数万甚至数百万token的长文本，用于文档分析、代码理解等任务 |
+| 指令跟随 | Instruction Following | AI模型理解并执行自然语言指令的能力，是评估大模型实用性的重要指标 |
 
 ## C.5 计算机视觉术语
 
@@ -144,22 +153,31 @@
 | 术语 | 英文 | 解释 |
 |------|------|------|
 | TensorFlow | TensorFlow | Google开发的开源深度学习框架，支持多种平台和语言 |
-| PyTorch | PyTorch | Facebook开发的开源深度学习框架，动态计算图，易于调试 |
+| PyTorch | PyTorch | Meta开发的开源深度学习框架，动态计算图，易于调试 |
 | JAX | JAX | Google开发的高性能数值计算库，用于机器学习和科学计算 |
 | Keras | Keras | 高级深度学习API，可运行在TensorFlow、Theano、CNTK等后端 |
 | scikit-learn | scikit-learn | Python的机器学习库，包含分类、回归、聚类等算法 |
 | Pandas | Pandas | Python的数据分析和处理库，用于处理结构化数据 |
 | NumPy | NumPy | Python的数值计算库，用于科学计算和数据分析 |
 | SciPy | SciPy | Python的科学计算库，包括优化、统计、信号处理等 |
-| Hugging Face | Hugging Face | 提供预训练模型、数据集和工具的AI平台 |
-| LangChain | LangChain | 用于构建基于大语言模型的应用程序的框架 |
-| LlamaIndex | LlamaIndex (GPT Index) | 用于构建基于LLM的知识图谱应用的框架 |
-| MLflow | MLflow | 用于管理机器学习生命周期的平台 |
-| DVC | Data Version Control | 用于管理机器学习项目的数据和模型版本 |
+| Hugging Face | Hugging Face | 提供预训练模型、数据集和工具的AI平台，2024年推出了Hugging Face Inference Endpoints等服务 |
+| LangChain | LangChain | 用于构建基于大语言模型的应用程序的框架，支持多种LLM集成和链管理 |
+| LlamaIndex | LlamaIndex (GPT Index) | 用于构建基于LLM的知识图谱应用的框架，支持多种数据源集成 |
+| MLflow | MLflow | 用于管理机器学习生命周期的平台，包括实验跟踪、模型管理和部署 |
+| DVC | Data Version Control | 用于管理机器学习项目的数据和模型版本，支持大文件版本控制 |
 | Docker | Docker | 用于构建、部署和运行应用程序的容器化平台 |
 | Kubernetes | Kubernetes | 用于自动化部署、扩展和管理容器化应用程序的平台 |
 | Git | Git | 分布式版本控制系统，用于代码管理 |
-| GitHub | GitHub | 基于Git的代码托管平台，用于团队协作和开源项目 |
+| GitHub | GitHub | 基于Git的代码托管平台，用于团队协作和开源项目，2024年增强了AI辅助开发功能 |
+| Ollama | Ollama | 2024年流行的开源大模型本地运行平台，支持Llama 3、Mistral等模型的简单部署和使用 |
+| vLLM | vLLM | 高效的LLM推理和服务框架，支持高吞吐量的模型部署，2024年广泛用于生产环境 |
+| TGI | Text Generation Inference | Hugging Face开发的高效文本生成推理框架，支持多种LLM的快速部署 |
+| Agent Framework | Agent Framework | 用于构建AI智能体的框架，如LangChain Agent、AutoGPT、MetaGPT等，2024年在智能体开发中广泛使用 |
+| RAG Framework | RAG Framework | 检索增强生成框架，如LangChain RAG、LlamaIndex RAG等，用于将外部知识集成到LLM中 |
+| Gradio | Gradio | 用于快速构建机器学习模型演示界面的Python库，2024年增强了对多模态模型的支持 |
+| Streamlit | Streamlit | 用于构建数据应用和机器学习演示的Python库，支持快速开发和部署 |
+| DeepSeek-R1 | DeepSeek-R1 | 深度求索2024年发布的开源多模态模型，在代码和数学推理方面表现出色 |
+| MoE | Mixture of Experts | 混合专家模型，如GPT-4和Gemini采用的架构，通过多个专家网络协作提高模型性能 |
 
 ## C.8 部署和管理
 
